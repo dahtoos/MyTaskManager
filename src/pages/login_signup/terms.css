@@ -1,0 +1,17 @@
+.terms{
+    font-size: x-large;
+    height: 100vh;
+    padding: 100px;
+    margin: 15PX;
+    font-style: italic;
+}
+.para{
+    margin-bottom: 20px;
+}
+.head{
+    text-align: center;
+}
+.anchor{
+    text-decoration: none;
+    color: red;
+}

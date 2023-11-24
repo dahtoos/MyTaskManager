@@ -17,8 +17,16 @@ const Signup = () => {
         <input className='INPUTS' type="text" name='Username' required/>
         <label className='LABELS' htmlFor="Password">Password</label>
         <input className='INPUTS' type="password" name='password' required/>
+       
+        <p className='down'>By creating an account, you agree to our <Link to={'/terms'}>terms</Link></p>
+        <div className='down'>
+        <input type="checkbox" name='checkbox' required/>
+        <label className='lab' htmlFor="">I have read and agreed to the terms and conditions</label>
+        </div>
+        <div id='btn1'>
+        <button type='sign up' className='Btn1'>Sign up</button>
+        </div>
         </form>
-        <p>By creating an account, you agree to our <Link to={'/terms'}>terms</Link></p>
     </div>
     </div>
   )

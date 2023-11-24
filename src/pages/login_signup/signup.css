@@ -39,3 +39,22 @@
     text-align: center;
     margin-top: 0;
   }
+  .Btn1{
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 150px;
+  }
+  #btn1{
+    display: flex;
+    justify-content: center;
+  }
+  .down{
+    margin-bottom: 20px;
+  }
+  .lab{
+    padding-left: 10px;
+  }
