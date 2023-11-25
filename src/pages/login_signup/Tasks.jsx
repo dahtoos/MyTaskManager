@@ -11,6 +11,13 @@ const Tasks = () => {
             <button className='Btnnn'>Logout</button>
             </div>
         </div>
+        <h1 id='my'>Task Manager App</h1>
+        <div id='abt'>
+        <div id='abtt'>
+            <h4>MY TASKS</h4>
+            <h4>PROFILE</h4>
+        </div>
+        </div>
      </div>
   )
 }
